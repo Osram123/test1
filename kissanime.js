@@ -22,7 +22,6 @@ do {
 var endEpisode; 
 do {
 	endEpisode = prompt("Enter episode number you want to end at");
-	if(endEpisode <= 0 || endEpisode < startEpisode) {
 		alert("Episode number entered must be greater than 0 and lesser than total number of eps");
 	} else {
 		break;
